@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "electron-ui"
+  ],
+  "scripts": {
+    "build:rust": "cd rust-core && cargo build --release",
+    "build:ui": "cd electron-ui && yarn build",
+    "build": "yarn build:rust && yarn build:ui",
+    "dev:ui": "cd electron-ui && yarn dev",
+    "dev": "yarn build:rust && yarn dev:ui",
+    "dev:rust": "cd rust-core && cargo run"
+  }
+}
