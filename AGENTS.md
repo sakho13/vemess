@@ -14,7 +14,7 @@
 1. Node.js と Rust のコンパイラをインストールしてください。
 2. 依存関係をインストールします。
    ```bash
-   npm install
+   npm run install:ui
    ```
 3. Rust バイナリをビルドします。
    ```bash
