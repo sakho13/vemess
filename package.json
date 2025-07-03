@@ -9,6 +9,8 @@
     "build": "yarn build:rust && yarn build:ui",
     "dev:ui": "cd electron-ui && yarn dev",
     "dev": "yarn build:rust && yarn dev:ui",
-    "dev:rust": "cd rust-core && cargo run"
+    "dev:rust": "cd rust-core && cargo run",
+    "check:rust": "cd rust-core && cargo check",
+    "install:ui": "cd electron-ui && npm install"
   }
 }
