@@ -22,12 +22,19 @@ pub struct Molecule {
 impl Molecule {
     /// Create an empty molecule.
     pub fn new(total_charge: i32, multiplicity: u8) -> Self {
-        Self { atoms: Vec::new(), total_charge, multiplicity }
+        Self {
+            atoms: Vec::new(),
+            total_charge,
+            multiplicity,
+        }
     }
 
     /// Add an atom to the molecule.
     pub fn add_atom(&mut self, atomic_number: AtomicNumber, position: [Bohr; 3]) {
-        self.atoms.push(Atom { atomic_number, position });
+        self.atoms.push(Atom {
+            atomic_number,
+            position,
+        });
     }
 
     /// Remove atom at the specified index.
