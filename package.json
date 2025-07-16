@@ -11,6 +11,7 @@
     "dev": "yarn build:rust && yarn dev:ui",
     "dev:rust": "cd rust-core && cargo run",
     "check:rust": "cd rust-core && cargo check",
-    "install:ui": "cd electron-ui && npm install"
+    "install:ui": "cd electron-ui && npm install",
+    "lint:rust": "cd rust-core && cargo fmt -- --check && cargo clippy -- -D warnings"
   }
 }
