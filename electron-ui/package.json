@@ -16,7 +16,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "8.35.1",
+    "@typescript-eslint/eslint-plugin": "8.37.0",
     "@typescript-eslint/parser": "8.36.0",
     "electron": "37.2.0",
     "eslint": "9.31.0",
