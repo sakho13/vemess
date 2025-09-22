@@ -19,7 +19,7 @@
     "@typescript-eslint/eslint-plugin": "8.37.0",
     "@typescript-eslint/parser": "8.39.0",
     "electron": "37.2.2",
-    "eslint": "9.31.0",
+    "eslint": "9.36.0",
     "typescript": "5.8.3"
   },
   "dependencies": {}
